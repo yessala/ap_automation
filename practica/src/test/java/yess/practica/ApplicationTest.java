@@ -16,7 +16,6 @@ class ApplicationTest {
 	
     @Test
     void hacerClick() throws InterruptedException {
-    
     	WebDriverManager.chromedriver().setup();
     	driver = new ChromeDriver();
     	
